@@ -60,7 +60,7 @@ while [ $# -gt 0 ]; do
 	    ;;
         lenovo-mixx-630)
 	    NAME="Lenovo Mixx 630"
-	    DTBREAL=laptop-hp-envy-x2.dtb
+	    DTBREAL=laptop-lenovo-mixx-630.dtb
 	    ;;
 	help|--help|-h|?)
 	    usage
