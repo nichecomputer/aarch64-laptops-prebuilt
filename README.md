@@ -43,8 +43,7 @@ To use the Flash Tool, do the following:
 
  1. Download the latest [Prebuilt Image](https://github.com/aarch64-laptops/prebuilt/raw/master/aarch64-laptops-bionic-prebuilt.img.xz) and make it executable
  2. Download the [Flash Tool](https://github.com/aarch64-laptops/prebuilt/blob/master/flash-prebuilt.sh)
- 3. Use the [Flash Tool](https://github.com/aarch64-laptops/prebuilt/blob/master/flash-prebuilt.sh\
-) to flash the latest [Prebuilt Image](https://github.com/aarch64-laptops/prebuilt/raw/master/aarch64-laptops-bionic-prebuilt.img.xz) onto the SD card
+ 3. Use the [Flash Tool](https://github.com/aarch64-laptops/prebuilt/blob/master/flash-prebuilt.sh) to flash the latest [Prebuilt Image](https://github.com/aarch64-laptops/prebuilt/raw/master/aarch64-laptops-bionic-prebuilt.img.xz) onto the SD card
 
 Example:
 
