@@ -1,13 +1,16 @@
 ## AArch64 Laptop Prebuilt Images
 
-These are the latest prebuilt images for your consumption.  There are currently 2 images available:
+### Images
+
+This repos offers the latest prebuilt images for your consumption.  There are currently 2 images available:
 
  * Complete prebuilt (configured) image
    * This image is **almost** (see below) ready for booting
+
  * Clean (not configured) Ubuntu Bionic image
    * This image is designed for the [Image Builder](https://github.com/aarch64-laptops/build) to consume
 
-### Complete (configured) prebuilt image
+#### Complete prebuilt (configured) image
 
 This image is ready to be flashed onto an SD card to boot any one of the 3 devices currently supported by this project:
 
