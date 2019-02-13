@@ -1,5 +1,9 @@
 ## AArch64 Laptop Prebuilt Images
 
+### Contributing
+
+The current outstanding [Jobs List](#Jobs-list) can be seen below.
+
 ### Images
 
 This repos offers the latest prebuilt images for your consumption.  There are currently 2 images available:
@@ -71,3 +75,7 @@ When used, it provides the following benefits:
 2. Saves a great deal of time (2 hours) in the Ubuntu installer
 
 **Note:** This image is not bootable on its own.
+
+## Jobs List
+
+TODO
