@@ -20,7 +20,7 @@ This image is ready to be flashed onto an SD card to boot any one of the 3 devic
 
  * Asus NovaGo TP370QL
  * HP Envy x2
- * Lenovo Mixx 630
+ * Lenovo Miix 630
 
 **IMPORTANT:** This image must be flashed using the [Flash Tool](https://github.com/aarch64-laptops/prebuilt/blob/master/flash-prebuilt.sh) provided by this repo.
 
@@ -31,7 +31,7 @@ $ sudo mount /dev/<SD_CARD>2 <SDCARD_MOUNT_POINT>
 $ ln -s /boot/<LAPTOP_DTB> <SDCARD_MOUNT_POINT>/boot/laptop.dtb
 ```
 
-Where <LAPTOP_DTB> is either `laptop-asus-tp370ql.dtb` for the Asus NovaGo TP370QL or `laptop-hp-envy-x2.dtb` for HP Envy x2 and Lenovo Mixx 630
+Where <LAPTOP_DTB> is either `laptop-asus-tp370ql.dtb` for the Asus NovaGo TP370QL or `laptop-hp-envy-x2.dtb` for HP Envy x2 and Lenovo Miix 630
 
 **Note:** Currently there are no known differences between the later 2 devices, so they use the same DTB.
 
