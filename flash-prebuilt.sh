@@ -17,7 +17,7 @@ function usage()
     print_blue ""
     print_blue "  $PREBUILTURL"
     print_blue ""
-    print_blue "USAGE: $0 [asus-tp370ql|hp-envy-x2]lenovo-mixx-630] [/dev/<SDCARD>]"
+    print_blue "USAGE: $0 [asus-tp370ql|hp-envy-x2|lenovo-mixx-630|lenovo-yoga-c630] [/dev/<SDCARD>]"
     print_blue ""
     print_blue "Where <SDCARD> is the whole device i.e. /dev/sda, and not /dev/sda1"
     return 1
@@ -61,6 +61,10 @@ while [ $# -gt 0 ]; do
         lenovo-mixx-630)
 	    NAME="Lenovo Mixx 630"
 	    DTBREAL=laptop-lenovo-mixx-630.dtb
+	    ;;
+        lenovo-yoga-c630)
+	    NAME="Lenovo Yoga C630"
+	    DTBREAL=laptop-lenovo-yoga-c630.dtb
 	    ;;
 	help|--help|-h|?)
 	    usage
